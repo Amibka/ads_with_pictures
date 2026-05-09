@@ -36,7 +36,7 @@ def image_mars():
                   </head>
                   <body>
                     <h1>Жди нас, Марс!</h1>
-                    <img src="{url_for('static', filename='img/mars_img.png')}" alt="Марс">
+                    <img src="{url_for('static', filename='static/img/mars_img.jpg')}" alt="Марс">
                     <div>Вот она какая, красная планета.</div>
                   </body>
                 </html>"""
@@ -59,7 +59,7 @@ def promotion_image():
                   <body>
                     <h1 class="container">Жди нас, Марс!</h1>
                     <div class="container">
-                        <img src="{url_for('static', filename='img/mars_img.png')}" alt="Марс">
+                        <img src="{url_for('static', filename='img/mars_img.jpg')}" alt="Марс">
                         <div class="alert alert-dark" role="alert">
                           Человечество вырастает из детства.
                         </div>
